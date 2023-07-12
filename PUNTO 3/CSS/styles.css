@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
+*{
+    font-family: Jost;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+display: flex;
+align-items: center;
+padding: 0px 50px 0px 50px;
+
+}
+
+nav .IS{
+    margin-left: auto;
+    
+}
+
+nav .IS .idiomas{
+    align-items: center;
+}
+
+nav .IS #lang{
+    width: 110px;
+    height: 40px;
+    border: none;
+    list-style: none;
+    align-items: center;
+    place-items: center;
+}
+
+nav .IS .login{
+    width: 110px;
+    height: 40px;
+    margin: 0px 10px 0px 10px;
+    background-color: white;
+    border: none; 
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+nav .IS .login a{
+    color: #010851;
+}
+
+
+nav ul{
+    display: inline-flex;
+}
+
+nav ul li{
+    margin-right: 70px;
+}
+
+.agruC{
+    padding: 30px 50px 30px 50px;
+}
+
+.conten1 {
+    background: linear-gradient(#8159F9,#ED80FD);
+    border-radius: 48px;
+    border-bottom-right-radius: 300px;
+    color: #FFFFFF;
+    padding: 80px;
+}
+
+.conten1 h1{
+    font-weight: bold;
+}
+
+.conten1 {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.conten1 .boto-g1 a{
+
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.conten1 .boto-g1 .saber{
+    width: 110px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: #FD909E;
+}
+
+.conten1 .boto-g1 .plan{
+    width: 110px;
+    height: 40px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    background: none;
+}
+
+.conten1 .boto-g1 .saber a:hover{
+    transition: all, 0.5s;
+}
+
+.conten2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.conten2 .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 20px;
+    color:#010851;
+    
+}
+
+.conten2 .container .card1{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 48px;
+    margin: 50px;
+    width: 210px;
+    height: 350px;
+    background-color: white;
+    padding: 10px 30px;
+    text-align: center;
+
+}
+
+
+.conten2 .container .card2{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 48px;
+    margin: 50px;
+    margin-top: 100px;
+    width: 210px;
+    height: 350px;
+    background-color: white;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.conten2 .container .card3{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 48px;
+    margin: 50px;
+    width: 210px;
+    height: 350px;
+    background-color: white;
+    padding: 10px 30px;
+    text-align: center;
+    
+}
+
+.conten3{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    background-color: hsla(292.32, 97%, 75%, 0.2);
+    margin-top: 25px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+.conten3 img{
+    width: 420px;
+}
+
+.conten3 .subconten1 .sub-box2 .saber{
+    width: 110px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: #FD909E;
+}
+
+
+
+.conten3 .subconten2 .sub-box1 .saber{
+    width: 110px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: #FD909E;
+}
+
+.conten3 a {
+    color: #FFFFFF;
+}
+
+.conten3 .color-r{
+    color: #ED80FD;
+}
+
+footer{
+    background-color: #010851;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 30px 50px 30px 50px;
+}
+
+footer .suscripcion input{
+ background: #454868;
+ border: none;
+ border-radius: 5px;
+ color: #FFFFFF;
+ text-align: center;
+ width: 230px;
+ height: 40px;
+}
+
+footer .suscripcion input ::placeholder{
+    color: #FFFFFF;
+   }
+
+footer .suscripcion .btns{
+    background: #ED80FD;
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+}
+
+footer .suscripcion .btns{
+    color: #FFFFFF;
+}
+
+footer .container-foot{
+    color: #FFFFFF;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px;
+}
+
+footer .container-foot a{
+    text-decoration: underline;
+    color: #FFFFFF;
+}

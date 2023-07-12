@@ -1,0 +1,33 @@
+table{
+    background-color: yellow;
+    border: 1px dotted;
+    border-bottom: none;
+    border-spacing: 0;
+}
+
+table .titulos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    border: none;
+}
+
+table tr{
+    background-color: yellow;
+}
+
+table .edad, .peso{
+    border: none;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+table td{
+    background-color: yellow;
+    margin: 0;
+    border: 1px dotted;
+}
+
+table .texto{
+    border-bottom: 2px dotted red;
+}

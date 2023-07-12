@@ -1,0 +1,25 @@
+.entiendov{
+    color: green;
+    text-decoration: underline;
+}
+
+.tambien{
+    color: blue;
+}
+
+.quiero{
+    color: red;
+    text-decoration: underline;
+}
+
+.enemigo{
+    color: red;
+}
+
+.derrotarle{
+    font-size: 38px;
+}
+
+.entiendo{
+    text-decoration: underline overline;
+}
